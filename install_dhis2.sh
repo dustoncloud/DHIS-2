@@ -90,7 +90,7 @@ createHibernateConfiguration() {
 downloadDhisWar() {
    echo "############## Downloading DHIS2 war file  ##################"
 
-    Download .war file from CI
+    #Download .war file
    wget --progress=bar https://www.dhis2.org/download/releases/2.26/dhis.war -O /home/dhis/web-dhis/webapps/ROOT.war
 }
 
