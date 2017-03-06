@@ -153,4 +153,4 @@ installDhis2Instance() {
 # Start installation Instance
 installDhis2Instance
 
-#  Instalation Completed please browse https://ip-address:8080
+echo "#############################  Instalation Complete Browse https://ip-address:8080   ################################"
