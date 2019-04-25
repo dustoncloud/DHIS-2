@@ -91,7 +91,7 @@ downloadDhisWar() {
    echo "############## Downloading DHIS2 war file  ##################"
 
     #Download .war file
-   wget --no-check-certificate --progress=bar https://www.dhis2.org/download/releases/2.26/dhis.war -O /home/dhis/web-dhis/webapps/ROOT.war
+   wget --no-check-certificate --progress=bar https://releases.dhis2.org/2.29/dhis.war -O /home/dhis/web-dhis/webapps/ROOT.war
 }
 
 # Force tomcat to start on boot script
